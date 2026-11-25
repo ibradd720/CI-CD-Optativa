@@ -26,8 +26,8 @@ jobs:
         run: npm ci
       # TODO: tres steps distintos: lint, format:check y test:unit
       - name: chequar linting
-        run: npm lint
+        run: npm run lint
       - name: chequear formato
-        run: npm format:check
+        run: npm run format:check
       - name: test unitarios
-        run: npm test:unit
+        run: npm run test:unit
